@@ -4,10 +4,11 @@
         <meta charset="utf-8">
         <title>Blog</title>
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link href="https:/ /fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     </head>
     <body>
         <h1>Blog Name</h1>
+        <p class='create'>[<a href='/posts/create'>create</a>]</p>
         <div class='posts'>
             @foreach ($posts as $post)
                 <div class='post'>
