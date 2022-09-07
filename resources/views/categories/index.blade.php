@@ -19,6 +19,7 @@
                 <a href="/categories/{{ $post->category->id }}">{{ $post->category->name }}</a>
             @endforeach
         </div>
+        <a href='/'>back</a>
         <div class='pagenate'>
             {{ $posts->links() }}
         </div>
